@@ -1,11 +1,4 @@
-def display_rainbow(colors)
-  puts "R: #{colors[0]}"
-  puts "O: #{colors[1]}"
-  puts "Y: #{colors[2]}"
-  puts "G: #{colors[3]}"
-  puts "B: #{colors[4]}"
-  puts "I: #{colors[5]}"
-  puts "V: #{colors[6]}"
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+def display_rainbow(aura)
+  puts "R: #{aura[0]}, O: #{aura[1]}, Y: #{aura[2]}, G: #{aura[3]}, B: #{aura[4]}, I: #{aura[5]}, V: #{aura[6]}"
 end
-
-display_rainbow(colors)
